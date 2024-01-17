@@ -1,5 +1,9 @@
 import streamlit as st
 
+st.write ("""
+# Aplikasi Luas Segitiga
+Ini adalah aplikasi menghitung luas segitiga menggunakan Streamlit""")
+
 # Insert a chat message container.
 >>> with st.chat_message("user"):
 >>>    st.write("Hello 👋")
@@ -7,8 +11,3 @@ import streamlit as st
 
 # Display a chat input widget.
 >>> st.chat_input("Say something")
-
-
-st.write ("""
-# Aplikasi Luas Segitiga
-Ini adalah aplikasi menghitung luas segitiga menggunakan Streamlit""")
